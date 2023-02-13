@@ -14,10 +14,10 @@ a.display_nsu_info(); // caling the function of the class
 // inheritance of a class
 // also called as driving class
 class students extends nsu {
-    constructor(student_year,nsu_name,nsu_id){
-        super(nsu_name,nsu_id);
+    constructor(student_year,nsu_name,nsu_id){ // all of the parent class constructor varriables should be called
+        super(nsu_name,nsu_id); // super should be called , variables name should be given or it'll show undefined
         this.year = student_year;
     }
 }
-let b = new students(2016,"somoy",16107);
+let b = new students(2016,"somoy",1610); // give values according to varriable name 
 console.log(b);
