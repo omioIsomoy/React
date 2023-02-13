@@ -17,6 +17,6 @@ console.log(retSome(5));
 
   let c = name => name;
   console.log(c("Hello There!"));
-
+  // Three way of writing arrow fuction
   let saySomething = num => num*num;
   console.log(saySomething(25));
